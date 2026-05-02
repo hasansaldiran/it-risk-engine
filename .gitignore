@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+.env.local
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/*.log
+
+# Data (outputs, not committed)
+output/*
+!output/.gitkeep
+tmp/
+*.tmp
+
+# Credentials
+*.pem
+*.key
+secrets.json
+
+# Gerçek veri dosyaları — repoya commit etme
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+
+# Şirket içi subnet/lokasyon eşlemesi
+config/subnet_city.json
+
+# Lansweeper bağlantı ayarları
+*.env
